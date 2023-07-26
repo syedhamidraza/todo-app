@@ -1,0 +1,62 @@
+    <section class="todo">
+        <div class="container">
+            <div class="app-card">
+                <h1 class="heading">Todo App</h1>
+                <div class="form row">
+                    <input type="text" class="input" placeholder="Add your new todo">
+                    <button class="btn btn-add">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        height: 100vh;
+        overflow: hidden;
+    }
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+    .app-card{
+        background-color: #fff;
+        width: 100%;
+        height:  500px;
+        margin: 40px 0;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .heading{
+    
+    }
+    .row{
+        display: flex;
+        gap: 2%;
+    }
+    .form{
+        margin: 10px 0;
+    }
+    .form .input{
+        width: 80%;
+    }
+    .input{
+        padding: 10px;
+    }
+    .btn{
+        padding: 10px 20px;
+        border: 1px solid red;
+        width: 20%;
+    }
+    .btn-add{
+        background-color: purple;
+        color: #fff;
+    }
